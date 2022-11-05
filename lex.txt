@@ -1,0 +1,173 @@
+integer
+id x
+real
+id fun
+(
+string
+id z
+)
+{
+integer
+id w
+id( id , id )
+}
+real
+id fun
+(
+integer
+id z
+)
+{
+real
+id x
+write
+(
+id s
+)
+}
+real
+id fun1
+(
+integer
+id z
+)
+{
+integer
+id w
+if
+(
+id x
+>=
+realLiteral
+)
+then
+while
+(
+id x
+<=
+intLiteral
+)
+id x
+=
+(
+id x
+-
+intLiteral
+)
+endwhile
+else
+write
+(
+stringLiteral
+)
+endif
+;
+read
+(
+id x
+)
+;
+write
+(
+id x
+)
+;
+if
+(
+id x
+==
+intLiteral
+)
+then
+write
+(
+id x
+)
+else
+write
+(
+stringLiteral
+)
+endif
+}
+real
+id PRINT
+(
+real
+id pr
+)
+{
+integer
+id w
+id x
+=
+(
+id x
+*
+intLiteral
+)
+;
+read
+(
+id x
+)
+;
+while
+(
+id x
+<=
+intLiteral
+)
+id x
+=
+(
+id x
++
+intLiteral
+)
+endwhile
+;
+while
+(
+id u
+<=
+intLiteral
+)
+if
+(
+id x
+>=
+realLiteral
+)
+then
+while
+(
+id x
+<=
+intLiteral
+)
+id x
+=
+(
+id x
+-
+intLiteral
+)
+endwhile
+else
+write
+(
+stringLiteral
+)
+endif
+endwhile
+}
+main
+(
+)
+{
+write
+(
+id k
+)
+}

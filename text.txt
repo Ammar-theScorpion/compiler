@@ -1,0 +1,46 @@
+integer x
+real fun(string z){integer w id( x , y)}
+real fun(integer z){
+	real x 
+	write(s)
+}
+real fun1(integer z){
+	integer w 
+	if(x>=9.2)
+		then
+			while(x<=0)
+				x = (x-100)
+			endwhile
+		else
+			write("x is large")
+		endif
+			;read(x);
+			write(x);
+			if(x==1)
+				then
+					write(x)
+				else
+					write("x is small")
+		endif
+}
+real PRINT(real pr){
+	integer w 
+	x = (x*100);
+	read(x);
+	while(x<=0)
+		x = (x+1)
+	endwhile;
+		while(u<=0)
+			if(x>=9.2)
+				then
+					while(x<=0)
+						x = (x-100)
+					endwhile
+			else
+				write("x is large")
+		endif
+	endwhile
+
+}
+
+main(){write(k)}
