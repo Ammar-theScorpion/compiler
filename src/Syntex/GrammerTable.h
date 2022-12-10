@@ -255,8 +255,6 @@ namespace Amc {
 			collision[27].fetch(53, 55, 54, 56, 57,"+", "-", "*", "/","%", "arithmOp");
 			collision[28].fetch(25, 25, 26, 27, 28, 29, 30, ",", "id", "if", "while", "read", "write", "id(", "statement");
 		}
-
-
 	private:
 		Collision<std::string> collision[29];
 		std::vector<std::string> grammerVector;
